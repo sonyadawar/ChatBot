@@ -2,7 +2,7 @@
 
 import Card from './components/Card'
 import LetsChat from './components/LetsChat';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
