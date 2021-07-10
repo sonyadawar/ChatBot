@@ -1,0 +1,64 @@
+
+  
+*{
+    margin:0;
+    padding:0,
+    
+}
+
+.background-container{
+    background: black ;
+    /* height: 637px; */
+  
+    
+}
+
+.backCard-container{
+    width:65vh;
+    height:100vh;
+    margin: auto;
+    background: linear-gradient( rgb(255, 116, 51) 45%, rgb(255, 255, 244) 0%);
+    border-radius: 20px;
+    animation: fadeInAnimation ease-in 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+    @media (max-width:540px): {
+        width: 100vh;
+        border-radius: none;
+      }
+}
+    
+    
+
+.backCard-text{
+    text-align:left;
+    color:white;
+    line-height:5.5vh;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 4vh;
+    padding-left: 9vh;
+    word-spacing: 0.5vh;
+    animation: fadeInAnimation ease-in 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+    @media (max-width:540px): {
+        font-size: 2.5vh;
+    }
+    
+}
+
+    
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+
+

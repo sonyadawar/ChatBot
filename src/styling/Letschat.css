@@ -1,0 +1,32 @@
+
+  
+.chatIcon-container{
+    background: chocolate;
+    min-height :25vh;
+   
+   
+
+}
+
+.chatIcon{
+    text-align:center;
+    margin-top: 25vh;
+    margin-left: 0.5vh;
+    position: relative;
+    padding: 12vh;
+  
+   
+    
+    
+    font-family: 'Open Sans', sans-serif;
+    
+    padding-top: 4vh;
+    padding-left: 9vh;
+    word-spacing: 1vh;
+    
+   
+}
+
+
+
+    
